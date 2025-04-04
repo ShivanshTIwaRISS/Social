@@ -1,55 +1,23 @@
-.feed-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 20px;
-    padding: 20px;
-  }
-  
-  .post-card {
-    width: 400px;
-    background: white;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    overflow: hidden;
-  }
-  
-  .post-header {
-    display: flex;
-    align-items: center;
-    padding: 10px;
-    border-bottom: 1px solid #ddd;
-  }
-  
-  .avatar {
-    width: 40px;
-    height: 40px;
-    border-radius: 50%;
-    margin-right: 10px;
-  }
-  
-  .username {
-    font-weight: bold;
-  }
-  
-  .post-image {
-    width: 100%;
-    height: auto;
-  }
-  
-  .post-footer {
-    padding: 10px;
-  }
-  
-  .caption {
-    margin: 5px 0;
-  }
-  
-  .actions {
-    display: flex;
-    justify-content: space-between;
-    font-size: 14px;
-    color: gray;
-    cursor: pointer;
-  }
-  
+.gallery-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 10px;
+  padding: 20px;
+}
+
+.gallery-item {
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+}
+
+.media {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+video.media {
+  height: 250px;
+  object-fit: cover;
+}

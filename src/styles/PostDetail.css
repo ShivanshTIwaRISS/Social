@@ -1,0 +1,37 @@
+.post-detail-container {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .post-detail-header {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .post-detail-avatar {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+  }
+  
+  .post-detail-username {
+    font-weight: bold;
+  }
+  
+  .post-detail-image {
+    width: 100%;
+    margin-top: 10px;
+    border-radius: 8px;
+  }
+  
+  .post-detail-caption {
+    margin-top: 10px;
+    font-size: 14px;
+    color: #333;
+  }
+  

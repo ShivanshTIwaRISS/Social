@@ -16,14 +16,13 @@ const PostCard = ({ post }) => {
       {/* Post Image */}
       <img src={post.postImg} alt="Post" className="post-img" />
 
-      {/* Post Actions */}
+
       <div className="post-actions">
         <FaHeart className="icon" onClick={() => setLikes(likes + 1)} />
         <FaComment className="icon" />
         <FaShare className="icon" />
       </div>
-      
-      {/* Like Count & Caption */}
+
       <p className="likes">{likes} Likes</p>
       <p className="caption"><strong>{post.username}</strong> {post.caption}</p>
     </div>

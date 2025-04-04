@@ -1,0 +1,18 @@
+.feed-btn {
+    display: block;
+    margin: 20px auto;
+    padding: 12px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    background-color: #ff2e63;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.3s ease-in-out;
+  }
+  
+  .feed-btn:hover {
+    background-color: #d21d4a;
+  }
+  
